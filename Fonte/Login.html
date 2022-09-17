@@ -18,14 +18,27 @@
         <br>
         <input type="text" placeholder="Nome do cliente" required>
         <br>
+        <label>Sexo</label>
+        <br>
         <input id="M" type="radio" name="sexo">
         <label for="M">Masculino</label>
         <input id="F" type="radio" name="sexo">
         <label for="F">Feminino</label>
         <br>
-        <label>Data de Nascimento: </label>
+        <label>Data de Nascimento</label>
         <br>
         <input type="date" text="Data">
+        <br>
+        <label>Idade: </label>
+        <input type="number" min="1" max="100" step="1">
+        <br>
+        <lavel>Deseja receber noticias por telefone?</lavel>
+        <br>
+        <label for="duvia">Sim</label>
+        <input id="duvida" type="checkbox" value="duvida" nome="opcional">
+        <br><br>
+        <button type="submit" class="btn">Enviar</button>
+        <button type="Limpar" id="botao_res">Limpar</button>
     </form>
 </body>
 
