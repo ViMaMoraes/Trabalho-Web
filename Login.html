@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dentista</title>
-    <link href="Login.css" rel="stylesheet">
+    <link href="CSS/Login.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,9 +44,14 @@
         <label for="duvia">Sim</label>
         <input id="duvida" type="checkbox" value="duvida" nome="opcional">
         <br><br>
-        <button type="submit" class="btn">Enviar</button>
-        <button type="Limpar" id="botao_res">Limpar</button>
+        <button type="submit" class="Env" onclick="envia()">
+            <!--<img src="Imagens/Enviar.png" alt="" class="img-fluid">-->Enviar
+        </button>
+        <button type="Limpar" class="Res" id="botao_res">
+            <!--<img src="Imagens/Reset.png" alt="" class="img-fluid">-->Reset
+        </button>
     </form>
+    <script src="CSS-JS/Login.js"></script>
 </body>
 
 </html>
