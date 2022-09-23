@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #06c6f1, #07c7dcc9, #0df3c9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #06c6f1, #07c7dcc9, #0df3c9);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(241, 158, 158);
+
+}
+
+.Logo {
+    width: 120px;
+    height: 120px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #222246;
+    height: 25vh;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.Fantasia {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
