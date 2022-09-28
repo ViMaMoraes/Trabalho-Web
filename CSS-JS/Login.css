@@ -95,3 +95,66 @@ li:after {
 li:hover:after {
     transform: scaleX(1);
 }
+
+label {
+    width: 320px;
+    height: 35px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+input {
+    box-sizing: border-box;
+    background: #222246;
+    border: 1.5PX solid #099FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    transition: all 0.5s;
+    padding-left: 5%;
+    padding: 0.3%;
+    color: white;
+}
+
+button {
+    padding: 8px;
+    width: 120px;
+    cursor: pointer;
+    background: #222246;
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #222246;
+    box-shadow: 0 0 10px 0 #222246 inset,
+        0 0 10px 4px #222246;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color: white
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Center {
+    text-align: center;
+}
+
+.table {
+    width: 650px;
+    height: 320px;
+    margin-left: -20%;
+}
